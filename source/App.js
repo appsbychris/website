@@ -11,13 +11,12 @@ enyo.kind({
 			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "openLink", url: "http://appsbychris.net/blog", content: "View Blog"},
 			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "openLink", url: "http://appsbychris.net/github", content: "View Github"}
 		]},
-		{kind: "FittableColumns", style: "height:50px;", components: [
-			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "changePanels", index: 0, content: "Slideshow HD", style: "width: 150px;"},
-			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "changePanels", index: 1, content: "Chore Tracker", style: "width: 150px;"}
-		]},
-		{kind: "FittableColumns", style: "height:50px;", components: [
-			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "changePanels", index: 2, content: "Peek-A-Dash", style: "width: 150px;"},
-			{kind: "onyx.Button", classes: "onyx-affirmative", ontap: "changePanels", index: 3, content: "Two Outta Three", style: "width: 150px;"}
+		{kind: "expandable.RadioGroup", components: [
+			{ classes: "onyx-affirmative", ontap: "changePanels", index: 0, content: "Slideshow HD", active: true},
+			{ classes: "onyx-affirmative", ontap: "changePanels", index: 1, content: "Chore Tracker"},
+		
+			{ classes: "onyx-affirmative", ontap: "changePanels", index: 2, content: "Peek-A-Dash"},
+			{ classes: "onyx-affirmative", ontap: "changePanels", index: 3, content: "Two Outta Three"}
 		]},
 		{kind: "Panels", name:"panels", fit:true, realtimeFit: true,  arrangerKind: "CollapsingArranger", classes: "enyo-border-box", components: [
 			{kind: "Scroller",horizontal: "hidden", classes: "panel-back", components:[

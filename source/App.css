@@ -17,7 +17,7 @@
 
 .panel-back {
 	color: black;
-	background: white url("assets/gradient.png") repeat-x 0 bottom;
+	background: white url("../assets/gradient.png") repeat-x 0 bottom;
 	border: 5px solid black;
 	border-radius: 10px;
 	margin: 4px 4px 10px 4px;
