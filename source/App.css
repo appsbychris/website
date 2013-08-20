@@ -2,12 +2,26 @@
 	Put anything you reference with "url()" in ../assets/
 	This way, you can minify your application, and just remove the "source" folder for production
 */
-
+.app-font {
+	font-family: 'Overlock SC', cursive;
+}
+.slideable-absolute {
+	background-color: #333;
+	position: absolute;
+}
 
 .main-header {
 	font-size: 180%;
 	font-weight: bolder;
 	text-shadow:  1px 2px 1px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.desc-text {
+	font-size: 80%;
+	font-style:italic;
+	font-weight: bold;
+	text-align: center;
 }
 
 .body-content {
@@ -15,20 +29,144 @@
 	text-shadow:  1px 0px 0px rgba(0,0,0,0.4);
 }
 
+.app-detail-icon {
+	 width:100px;
+	 height:100px;
+}
+
+.app-detail-top {
+	background-color: #F1ECDF;
+	color: black;
+	border: 3px solid #C7BA99;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.app-detail-title {
+	font-size: 180%;
+	font-weight: bolder;
+	text-shadow:  1px 2px 1px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.app-header {
+	font-size: 250%;
+	font-weight: bolder;
+	text-shadow:  1px 2px 1px rgba(0,0,0,0.4);
+}
+.app-detail-price {
+	color: #F58723;
+	font-weight: bold;
+	font-size: 120%;
+	padding-top: 10px;
+
+}
+
+.app-picker-price {
+	text-align: right;
+	color:black;
+	padding-top: 0px !important;
+}
+
+.app-detail-store {
+	border-radius: 5px;
+	padding:3px;
+	text-align: center;
+}
+
+.app-detail-store:hover {
+	background-color: #C7BA99;
+}
+
+.app-detail-desc {
+	background-color: #F1ECDF;
+	color: black;
+	border: 3px solid #C7BA99;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 110%;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.app-detail-promo-text {
+	font-size: 140%;
+	font-weight: bold;
+}
+.app-detail-promo-image {
+	max-width: 90%;
+}
+
+.app-detail-screenshot {
+	display: inline-block;
+	max-width: 45%;
+	margin: 3px;
+}
+
+.app-detail-link {
+	width: 129px;
+	height: 45px;
+	border-radius: 3px;
+}
+
 .panel-back {
 	color: black;
 	background: white url("../assets/gradient.png") repeat-x 0 bottom;
-	border: 5px solid black;
+	border: 5px solid #333;
 	border-radius: 10px;
 	margin: 4px 4px 10px 4px;
-	padding: 10px 10px 10px 10px;
 	/*max-width:314px;*/
 	/*overflow-x:hidden;*/
 	word-wrap:break-word !important;
 	box-shadow: 7px 7px 20px #888888;
-	width:99%;
 }
 
 .link-format:a {
 	color: blue;
-};
+}
+
+.inline-format {
+	display: inline;
+	margin-right: 5px;
+}
+
+
+.app-icon {
+	display:inline-block;
+	text-align: center;
+	background-color: #F1ECDF;
+	color: black;
+	border: 2px solid #C7BA99;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 3px;
+}
+
+.app-icon:hover {
+	background-color: #F58723;
+}
+
+.web-menu-item {
+	padding:2px;
+	border-radius:5px;
+	border-bottom:1px solid #D4C9AD;
+	border-left:2px solid #D4C9AD;
+	border-right:2px solid #D4C9AD;
+	border-top: 1px solid #D4C9AD;
+	background-color: #C7BA99;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 3px;
+	color:black;
+}
+
+.web-menu-item:hover {
+	
+	border-bottom:1px solid #F1ECDF;
+	border-left:2px solid #F1ECDF;
+	border-right:2px solid #F1ECDF;
+	border-top: 1px solid #F1ECDF;
+	background-color: #F58723;
+}
